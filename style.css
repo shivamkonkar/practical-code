@@ -1,0 +1,72 @@
+*{
+margin : 0;
+padding : 0;
+}
+
+main{
+background-color: gray;
+display : flex;
+text-align: center;
+}
+
+h5{
+font-family : monospace;
+margin : 10px 30px;
+font-size : 18px;
+}
+
+nav{
+display : flex;
+background-color : black;
+color : white;
+justify-content : space-between;
+}
+
+.navi{
+display : flex;
+}
+
+a{
+margin : 10px 30px;
+}
+
+img {
+  object-fit: cover;
+  width: 50%;
+  height: auto;
+  max-width: 500px;
+}
+
+.btns{
+display : flex;
+justify-content: center;
+  align-items: center;
+}
+
+.shop{
+background-color: black;
+color : white;
+}
+
+.visit{
+background-color: white;
+color : black;
+}
+h1{
+text-align: center;
+}
+
+.details{
+margin : auto;
+}
+
+button{
+padding : 10px 20px;
+}
+
+.light-nav{
+display : flex;
+background-color : white;
+color : black;
+justify-content : space-between;
+}
